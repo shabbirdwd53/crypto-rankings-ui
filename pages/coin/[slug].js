@@ -15,7 +15,7 @@ export default function CoinHome() {
       </Head>
       <Navbar />
       <main>
-        <CoinChartContainer />
+        <CoinChartContainer slug={slug} />
       </main>
     </div>
   );
